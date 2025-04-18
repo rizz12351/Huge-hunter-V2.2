@@ -89,7 +89,7 @@ statusLabel.Parent = frame
 -- Execute Button (No fail check, direct execution)
 button.MouseButton1Click:Connect(function()
     statusLabel.Text = "Executing..."
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/rizz12351/The-script-/refs/heads/main/Script", true))()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/Petsimscripts-25/Petsimscript1/refs/heads/main/Script", true))()
     gui:Destroy()
 end)
 
